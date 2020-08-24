@@ -15,7 +15,7 @@ az group create --name $rgName
 az configure --default group=$rgName
 
 # TODO: provision VM
-az vm create --name $vmName --size $vmSize --image $vmImage --admin-username $vmAdminUsername --assign-identity
+az vm create --name $vmName --size $vmSize --image $vmImage --admin-username $vmAdminUsername --assign-identity --generate-ssh-keys
 az configure --default vm=$vmName
 
 # TODO: capture the VM systemAssignedIdentity
