@@ -10,7 +10,7 @@ set -ex
 github_username=TLawsonG
 
 # TODO: enter the name of your project branch that has your updated code
-solution_branch=
+solution_branch=3-aadb2c
 
 # api
 api_service_user=api-user
