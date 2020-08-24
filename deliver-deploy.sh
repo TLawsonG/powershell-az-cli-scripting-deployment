@@ -58,7 +58,7 @@ EOF
 
 # deliver source code
 
-git clone https://github.com/$github_username/coding-events-api /tmp/coding-events-api
+git clone https://github.com/$github_username/codingeventsapi /tmp/coding-events-api
 
 cd /tmp/coding-events-api/CodingEventsAPI
 
